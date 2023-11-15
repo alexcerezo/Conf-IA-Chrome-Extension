@@ -23,7 +23,7 @@ function functionToGetSelectedText() {
 }
 
 // background.js
-const API_KEY = "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";
+const API_KEY = "API_KEY_HERE";
 
 async function getCompletion(texto) {
   const respuesta = await fetch(`https://api.openai.com/v1/chat/completions`, {

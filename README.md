@@ -1,27 +1,27 @@
 # Conf-IA-Chrome-Extension
 
-*Versión:* 1.0.0
+**Versión:** 1.0.0
 
-*Última actualización:* 2023-11-15
+**Última actualización:** 2023-11-15
 
-*Autor:* Alejandro Cerezo Contreras
+**Autor:** Alejandro Cerezo Contreras
 
-*Descripción:*
+**Descripción:**
 
 Este proyecto es una extensión de Chrome que verifica la veracidad del texto seleccionado por el usuario. Para ello, utiliza el servicio de verificación de veracidad de OpenAI.
 
-*Características:*
+**Características:**
 
 Verificación de veracidad de texto en español y en inglés.
 Resultados rápidos y precisos.
 Fácil de usar.
 
-*Requisitos:*
+**Requisitos:**
 
 Chrome versión 99 o superior.
 Una API key de OpenAI.
 
-*Cómo obtener una API key de OpenAI:*
+**Cómo obtener una API key de OpenAI:**
 
 Visita la página de registro de OpenAI.
 Rellena el formulario de registro.
@@ -29,31 +29,31 @@ Una vez registrado, haz clic en "Crear una aplicación".
 Selecciona "API de verificación de veracidad".
 En la sección "Credenciales", haz clic en "Generar una clave".
 
-*Cómo configurar la extensión:*
+**Cómo configurar la extensión:**
 
 Abre el archivo background.js.
 En la línea const apiKey = "tu_api_key";, reemplaza tu_api_key por tu API key de OpenAI.
 
-*Uso:*
+**Uso:**
 
 Selecciona el texto que deseas verificar.
 Haz clic en el icono de la extensión.
 Espera a que se complete la verificación.
 Lee los resultados.
 
-*Licencia:*
+**Licencia:**
 
 Esta extensión está licenciada bajo la licencia MIT.
 
-*Contribuciones:*
+**Contribuciones:**
 
 Todas las contribuciones son bienvenidas. Si quieres contribuir al proyecto, puedes enviar una solicitud de incorporación o crear un problema.
 
-*Contacto:*
+**Contacto:**
 
 Si tienes alguna pregunta o comentario, puedes ponerte en contacto conmigo en alexcerezocontreras@gmail.com
 
-*Instrucciones adicionales*
+**Instrucciones adicionales**
 
 Para que la extensión funcione correctamente, debes colocar tu API key de OpenAI en el archivo background.js. Puedes obtener una API key de OpenAI siguiendo los pasos descritos en la sección "Cómo obtener una API key de OpenAI".
 
@@ -61,7 +61,7 @@ Una vez que hayas colocado tu API key en el archivo background.js, puedes instal
 
 Para usar la extensión, selecciona el texto que deseas verificar y haz clic en el icono de la extensión. La extensión se encargará de verificar la veracidad del texto y te mostrará los resultados.
 
-*Preguntas frecuentes*
+**Preguntas frecuentes**
 
 ¿Por qué necesito una API key de OpenAI?
 La API key de OpenAI te permite utilizar el servicio de verificación de veracidad de OpenAI. Este servicio es necesario para que la extensión funcione correctamente.

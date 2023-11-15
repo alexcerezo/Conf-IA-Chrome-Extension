@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Conf-IA",
+  "version": "1.0",
+  "description": "Conf-IA es una inteligencia artificial de texto generativo la cual verifica la veracidad de una selección o texto seleccionado.",
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "icons": {
+    "128": "logo.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "theme": "system"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["background.js"]
+    }
+  ]
+}

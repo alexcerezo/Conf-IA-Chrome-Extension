@@ -141,7 +141,7 @@ h2 {
 
 .textarea p {
   padding: 10px;
-  width: 65vw;
+  width: 64vw;
 }
 
 .textarea::placeholder { color: rgba(255, 255, 255, 1); }
